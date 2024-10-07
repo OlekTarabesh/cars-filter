@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "plugins": [],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single", "backtiks"]
+  },
+  "ignorePatterns": ["node_modules/", ".next/"]
+}
